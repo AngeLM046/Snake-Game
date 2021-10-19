@@ -93,5 +93,6 @@ button {
     background-color: rgb(156, 132, 79);
     height: 30px;
     width: 30px;
+    border-radius: 50%;
 
 }
