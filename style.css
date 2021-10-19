@@ -1,0 +1,97 @@
+
+body {
+
+    background-color: black;
+
+}
+
+.container {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    border-radius: 2px;
+    height: 550px;
+    width: 500px;
+
+}
+
+#game-container {
+
+    position: absolute;
+    border-bottom: 2px solid red;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(35, 35, 35);
+
+}
+
+.game-stats {
+
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    transform: translateY(-100%);
+    top: 552px;
+
+}
+
+button {
+
+    position: absolute;
+    height: 46px;
+    width: 120px;
+    top: 1px;
+    background-color: rgb(25, 25 ,25);
+    border: 1px solid gray;
+    color: white;
+
+}
+
+.score-box {
+
+    position: absolute;
+    left: 120px;
+    width: 380px;
+    height: 48px;
+    border-left: 2px solid red;
+
+}
+
+#score {
+
+    margin-left: 250px;
+    color: white;
+
+}
+
+#head {
+
+    position: absolute;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    top: 240px;
+    left: 240px;
+
+}
+
+.snake-body {
+
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.food {
+
+    position: absolute;
+    background-color: rgb(156, 132, 79);
+    height: 30px;
+    width: 30px;
+
+}
