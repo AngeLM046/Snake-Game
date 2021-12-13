@@ -81,6 +81,8 @@ class Game {
 
         }
 
+		this.move_speed -= 1;
+
     }
 
     gameOver() {
@@ -94,8 +96,6 @@ class Game {
         this.body = [];
         this.direction = "down";
 
-        this.score = 0;
-
         snake_head.style.left = "240px";
         snake_head.style.top = "240px";
 
@@ -108,6 +108,8 @@ class Game {
         this.game = false;
 
         alert("Game over! Your score is: " + this.score);
+
+        this.score = 0;
 
     }
 
